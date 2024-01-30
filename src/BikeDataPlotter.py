@@ -50,7 +50,7 @@ DECOMP_STYLE = {
     "c": None,
     "m": None, "ms":None,
     "ls": "-", "lw": [1,1.5,1,1],
-    "a": 0.6, "xlabel": "Day",
+    "a": 0.6, "xlabel": "Time (in Days)",
 }
 
 FIGURE_STYLE = {
@@ -280,7 +280,7 @@ def plot_avg_weekday(wd_data, weekday, figinfo, years=None, counter_id=None,
         )
     counter_names = "All Tübingen Counters"
     if counter_id is not None:
-        counter_names = "+".join([COUNTER[c]["name"] for c in counter_id])
+        counter_names = " & ".join([COUNTER[c]["name"] for c in counter_id])
     year_span = "(2014 - 2023)"
     if years is not None:
         year_span = "({} - {})".format(min(years), max(years))
