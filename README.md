@@ -28,7 +28,7 @@ The repository is organized into several directories:
 ### Running the code
 1. Clone the repository:
 ```bash
-git clone https://github.com/TinaTruong023/data-literacy_TypicalTueBiker.git
+git clone https://github.com/SATHDKTT/dataliteracy-project.git
 cd data-literacy_TypicalTueBiker
 ```
 2. Set Up a Virtual Environment (Optional but Recommended):
